@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(228, 118, 169);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    place-items: center;
+    margin-top: 150px; 
+}
+.main{
+        background-color: white;
+        display: grid;
+        width: 250px; /* or any desired width */
+        margin: 250px auto;
+        border-radius: 5px;
+        padding: 100px;
+}
+form{
+    text-align: center;
+}
+#searchInput{
+    background-color: rgb(31, 236, 236);
+    border: none;
+    width: 250px;
+    padding: 15px;
+    border-radius: 40px;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 4px 0px gray;
+}
+#searchInput::placeholder{
+    color: rgb(91, 91, 226);
+    font-size: large;
+    text-align: left;
+}
+#searchInput:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+button{
+    width: 100px;
+    padding: 20px;
+    border: none;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    box-shadow: 2px 2px 4px 0px gray;
+    background-color: rgb(31, 236, 236);
+    color: rgb(91, 91, 226);
+    transition: background-color 0.6s ease;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+p,.main,h1{
+    margin: 15px;
+}
+h1{
+ color: white;
+}
